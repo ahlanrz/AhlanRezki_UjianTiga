@@ -26,12 +26,12 @@ public class MainApp {
         js.executeScript("window.scrollBy(0,500)");
         delay(1);
 
-//        Register register = new Register();
-//        register.register("Kanslay","kanslay@gmail.com","k4nslay@123");
-//        System.out.println("Register Succesfully");
+        Register register = new Register();
+        register.register("Kanslay1","kanslay1@gmail.com","k4nslay@123");
+        System.out.println("Register Succesfully");
 
         Login login = new Login();
-        login.login("kanslay@gmail.com", "k4nslay@123");
+        login.login("kanslay1@gmail.com", "k4nslay@123");
         System.out.println("Login Succesfully");
         delay(1);
 
